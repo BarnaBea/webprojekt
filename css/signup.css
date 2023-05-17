@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(177, 171, 154);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    background-image: url("../images/register.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.596);
+
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .center{
+	position: fixed;
+    z-index: 1;
+    top:-16px;
+    left: 10%;
+    right: 10%;
+}
+
+nav{
+	background-color: rgba(90, 66, 0, 0.89);
+	display: block;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	display:inline-block;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	margin: 8px;
+	border-radius: 10px;
+	font-size: 16px;
+	transition: background-color .5s, font-size 1s;	
+}
+
+nav a:hover{
+	color: black;
+	background-color: rgba(255,255,255, 1);
+	font-size: 20px;	
+}
+
+nav a:active{
+    border: 1px solid white;
+}
+
+ul{
+    width: auto;
+    padding: 0 3% 0 3%;
+}
+
+li{
+    padding: 0 0 3% 0;
+}
+  
+  .container {
+    padding: 16px;
+    background-color: rgba(145, 107, 58, 0.897);
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    border-radius: 8px;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  .registerbtn {
+    background-color: #6b3900d2;
+    color: white;
+    font-size: 17px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 8px;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+    background-color: #6b3900;
+  }
+  
+  a {
+    color: dodgerblue;
+  }
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    color: black;
+    border-radius: 0px 0px 8px 8px;
+  }
+
+  .error-message{
+      background-color: red !important;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.596);
+      text-align: center;
+  }
+
+  .sikerescontainer{
+      background-color: rgba(255, 255, 255, 0.781);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.596);
+  }
